@@ -1,5 +1,4 @@
 'use strict';
-
 var app = angular.module('demo', ['ngSanitize', 'ui.select']);
 
 app.controller('DemoCtrl', function ($scope, $http, $timeout, $interval) {
