@@ -1,7 +1,6 @@
 // Instantiate the app, the 'myApp' parameter must 
 // match what is in ng-app
 var myApp = angular.module('myApp', []);
-         
 // Create the controller, the 'ToddlerCtrl' parameter 
 // must match an ng-controller directive
 myApp.controller('ToddlerCtrl', function ($scope) {
@@ -23,7 +22,6 @@ myApp.controller('ToddlerCtrl', function ($scope) {
     //[{"name":"Shivam Gupta","empid":"007"},{"name":"Niraj Sazzie","empid":"008"}]
     console.log($scope.processedElem2);
     //[{"empid":"007","nounits":4,"quna":"PC"},{"empid":"008","nounits":1,"quna":"PC"},{"empid":"008","nounits":2,"quna":"PCS"},{"empid":"008","nounits":4,"quna":"PCS"}]
-    
     $scope.empid;
     $scope.empname;
     //max no of units that you get
