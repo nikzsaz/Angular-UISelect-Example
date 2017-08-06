@@ -1,7 +1,7 @@
 // Instantiate the app, the 'myApp' parameter must 
 // match what is in ng-app
 var myApp = angular.module('myApp', []);
-
+         
 // Create the controller, the 'ToddlerCtrl' parameter 
 // must match an ng-controller directive
 myApp.controller('ToddlerCtrl', function ($scope) {
