@@ -40,7 +40,7 @@ myApp.controller('ToddlerCtrl', function ($scope) {
       for(var j = 0 ; j < $scope.processedElem2.length ; j++){
         if($scope.processedElem1[i].empid == $scope.processedElem2[j].empid){
           $scope.totalVal++;
-          if(j==0){
+          if(j==0){      
                 $scope.empid      =  $scope.processedElem1[i].empid;
                 $scope.empname    =  $scope.processedElem1[i].name;
                 $scope.unit1      =  $scope.processedElem2[j].nounits;
