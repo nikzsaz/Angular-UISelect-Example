@@ -64,6 +64,7 @@ myApp.controller('ToddlerCtrl', function ($scope) {
     }
   
     console.log($scope.processedElem);
+  //for removing the element
   //https://stackoverflow.com/questions/5310304/remove-json-element
   //http://plnkr.co/edit/tyvOJIONtpAaZySb9mLR?p=preview   
   //http://plnkr.co/edit/uW2PPVlSdOunsA1ZaNKN?p=preview
