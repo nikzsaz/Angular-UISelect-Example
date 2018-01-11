@@ -70,3 +70,4 @@ myApp.controller('ToddlerCtrl', function ($scope) {
   //http://plnkr.co/edit/uW2PPVlSdOunsA1ZaNKN?p=preview
   //[{"id":"008","name":"Shivam Gupta","unit1":4,"unitname1":"PC"},{"id":"008","name":"Niraj sazzie","unit1":4,"unitname1":"PC","unit2":1,"unitname2":"PC","unit3":2,"unitname3":"PCS"}]
 });
+//https://jsfiddle.net/vvdk2gso/
